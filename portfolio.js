@@ -48,11 +48,10 @@ const menu = document.querySelector('.menu');
 const navbar = document.querySelector('.navbar');
 
 const toogle = () => {
-    menu.classList.toggle('fa-times');
     navbar.classList.toggle('active');
 }
 menu.addEventListener('click', toogle);
 window.onscroll = () => {
-    menu.classList.remove('fa-times');
+    //menu.classList.remove('fa-times');
     navbar.classList.remove('active');
 }
